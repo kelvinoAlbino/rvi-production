@@ -17,6 +17,6 @@ jQuery('a#mobile_nav').append("<i class=\"fa fa-bars\" aria-hidden=\"true\" styl
 
 </script>
 
-<script src="http://localhost:8888/rvi-production/wp-content/themes/Simplepress-Child/js/flexi-slider.js" type="text/javascript"></script>
+<script src="http://localhost:8888/rvi-production/wp-content/themes/rvi/js/flexi-slider.js" type="text/javascript"></script>
 </body>
 </html>
