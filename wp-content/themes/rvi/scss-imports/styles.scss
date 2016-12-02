@@ -7,18 +7,6 @@ Description:    2 Column theme from Elegant Themes
 Author:         Elegant Themes
 Author URI:     http://www.elegantthemes.com
 */
-
-@import "variables";
-@import "responsive";
-@import "header";
-@import "home";
-@import "divisions";
-@import "content";
-@import "tables";
-@import "footer";
-@import "forms";
-@import "animations";
-
 body {
   font-family: 'helvetica' !important; background-color: white !important; font-size: 16px !important; line-height: 1.5 !important;
 }
@@ -34,3 +22,22 @@ blockquote, q {
     padding-right: 20px !important;
     margin-right: 20px !important;
 }
+
+p {
+    padding-bottom: 20px !important;
+}
+
+.et_divi_builder #et_builder_outer_content .et_pb_module p.post-para {
+    padding-bottom: 20px !important;
+}
+
+@import "variables";
+@import "responsive";
+@import "header";
+@import "home";
+@import "divisions";
+@import "content";
+@import "tables";
+@import "footer";
+@import "forms";
+@import "animations";

@@ -7,6 +7,29 @@ Description:    2 Column theme from Elegant Themes
 Author:         Elegant Themes
 Author URI:     http://www.elegantthemes.com
 */
+body {
+  font-family: 'helvetica' !important;
+  background-color: white !important;
+  font-size: 16px !important;
+  line-height: 1.5 !important; }
+
+blockquote, q {
+  quotes: none;
+  margin-bottom: 20px !important;
+  padding-left: 20px !important;
+  border-left: solid !important;
+  margin-left: 20px !important;
+  font-size: 16px !important;
+  color: #ccc !important;
+  padding-right: 20px !important;
+  margin-right: 20px !important; }
+
+p {
+  padding-bottom: 20px !important; }
+
+.et_divi_builder #et_builder_outer_content .et_pb_module p.post-para {
+  padding-bottom: 20px !important; }
+
 .container {
   max-width: 960px;
   margin: 80px auto 0px; }
@@ -1400,21 +1423,5 @@ input#submit {
   100% {
     -webkit-transform: scale(1);
     opacity: 1; } }
-body {
-  font-family: 'helvetica' !important;
-  background-color: white !important;
-  font-size: 16px !important;
-  line-height: 1.5 !important; }
-
-blockquote, q {
-  quotes: none;
-  margin-bottom: 20px !important;
-  padding-left: 20px !important;
-  border-left: solid !important;
-  margin-left: 20px !important;
-  font-size: 16px !important;
-  color: #ccc !important;
-  padding-right: 20px !important;
-  margin-right: 20px !important; }
 
 /*# sourceMappingURL=style.css.map */
