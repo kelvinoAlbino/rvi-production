@@ -1,9 +1,24 @@
-<?php 
+<?php
 
-if(is_page(670))
-{
+if(is_page(670)) {
     get_header('archit');
-} else 
+}elseif (is_page(1542)) {
+    get_header('archit');
+}elseif (is_page(646)) {
+    get_header('engineeredVent');
+}elseif (is_page(1552)) {
+    get_header('engineeredVent');
+}elseif (is_page(225)) {
+    get_header('smokeVent');
+}elseif (is_page(1563)) {
+    get_header('smokeVent');
+}elseif (is_page(1606)) {
+    get_header('smokeVent');
+}elseif (is_page(1538)) {
+    get_header('smokeVent');
+}elseif (is_page(675)) {
+    get_header('sm');
+}else
     {
      get_header();
     }
