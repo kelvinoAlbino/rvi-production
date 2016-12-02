@@ -9,7 +9,7 @@
         <div class="descrp">
           <h2>Architectural Solutions</h2>
         </div>
-        <img src="<?php echo esc_attr( $archit ); ?>" alt="Architectural Solutions">
+        <a href="http://www.rvi-group.com/architectural-solutions/"><img src="<?php echo esc_attr( $archit ); ?>" alt="Architectural Solutions"></a>
       </li>
 
       <?php $engineered = get_template_directory_uri() . '/images/engineered-vent-hero-slider.jpg' ?>
@@ -17,7 +17,7 @@
         <div class="descrp">
           <h2>Engineered Ventilation</h2>
         </div>
-        <img src="<?php echo esc_attr( $engineered ); ?>" alt="Engineered Ventilation">
+        <a href="http://www.rvi-group.com/engineered-ventilation/"><img src="<?php echo esc_attr( $engineered ); ?>" alt="Engineered Ventilation"></a>
       </li>
 
       <?php $smokeVent = get_template_directory_uri() . '/images/rvi-group-smoke-ventilation-SV-Atrium-on-5th-Sandton-2.jpg' ?>
@@ -25,7 +25,7 @@
         <div class="descrp">
           <h2>Smoke Ventilation</h2>
         </div>
-        <img src="<?php echo esc_attr( $smokeVent ); ?>" alt="Smoke Ventilation">
+        <a href="http://www.rvi-group.com/smoke-ventilation/"><img src="<?php echo esc_attr( $smokeVent ); ?>" alt="Smoke Ventilation"></a>
       </li>
 
       <?php $servicesMaintenance = get_template_directory_uri() . '/images/services-maintenance-slider.jpg' ?>
@@ -33,7 +33,7 @@
         <div class="descrp">
           <h2>Services & Maintenance</h2>
         </div>
-        <img src="<?php echo esc_attr( $servicesMaintenance ); ?>" alt="Services & Maintenance">
+        <a href="http://www.rvi-group.com/service-maintenance/"><img src="<?php echo esc_attr( $servicesMaintenance ); ?>" alt="Services & Maintenance"></a>
       </li>
     </ul>
   </div>
