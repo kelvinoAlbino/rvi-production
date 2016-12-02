@@ -1,0 +1,93 @@
+/*-------[Division Colors]-------*/
+
+/*---[Architectural Solutions]---*/
+.archText {
+  color: $aritchectural-solutions !important;
+  font-weight: 800;
+}
+
+a.home-more-link.archBtn {
+  border: solid 2px $aritchectural-solutions !important;
+  color: $aritchectural-solutions !important;
+  transition: all 0.5s linear;
+}
+
+a.home-more-link.archBtn:hover {
+  opacity: 0.5;
+}
+
+.archShadow {
+  -pie-box-shadow: 0px 0px 8px 2px $aritchectural-solutions !important;
+  -moz-box-shadow: 0px 0px 8px 2px rgba($aritchectural-solutions, 0.5) !important;
+  -webkit-box-shadow: 0px 0px 8px 2px rgba($aritchectural-solutions, 0.5) !important;
+  box-shadow: 0px 0px 8px 2px rgba($aritchectural-solutions, 0.5) !important;
+}
+
+/*---[Engineered Ventilation]---*/
+
+.engVentText {
+  color: $engineered-ventiation !important;
+}
+
+a.home-more-link.engVentBtn {
+  border: solid 2px $engineered-ventiation !important;
+  color: $engineered-ventiation !important;
+  transition: all 0.5s linear;
+}
+
+a.home-more-link.engVentBtn:hover {
+  opacity: 0.5;
+}
+
+.engVentShadow {
+  -pie-box-shadow: 0px 0px 8px 2px #A4BED8 !important;
+  -moz-box-shadow: 0px 0px 8px 2px rgba($engineered-ventiation, 0.5) !important;
+  -webkit-box-shadow: 0px 0px 8px 2px rgba($engineered-ventiation, 0.5) !important;
+  box-shadow: 0px 0px 8px 2px rgba($engineered-ventiation, 0.5) !important;
+}
+
+/*---[Smoke Ventilation]---*/
+
+.smokeVentColor {
+  color: $smoke-ventilation !important;
+}
+
+a.home-more-link.smokeVentBtn {
+  border: solid 2px $smoke-ventilation !important;
+  color: #BE1E32 !important;
+  transition: all 0.5s linear;
+}
+
+a.home-more-link.smokeVentBtn:hover {
+  opacity: 0.5;
+}
+
+.smokeVentShadow {
+  -pie-box-shadow: 0px 0px 8px 2px $smoke-ventilation !important;
+  -moz-box-shadow: 0px 0px 8px 2px $smoke-ventilation !important;
+  -webkit-box-shadow: 0px 0px 8px 2px $smoke-ventilation !important;
+  box-shadow: 0px 0px 8px 2px $smoke-ventilation !important;
+}
+
+/*---[Service & Maintenance]---*/
+
+.serviceMaintenanceColor {
+  color: $s-m !important;
+}
+
+a.home-more-link.serviceMaintenanceBtn {
+  border: solid 2px $s-m !important;
+  color: $s-m !important;
+  transition: all 0.5s linear;
+}
+
+a.home-more-link.serviceMaintenanceBtn:hover {
+  opacity: 0.5;
+}
+
+.serviceMaintenanceShadow {
+  -pie-box-shadow: 0px 0px 8px 2px $s-m;
+  -moz-box-shadow: 0px 0px 8px 2px rgba($s-m, 0.5);
+  -webkit-box-shadow: 0px 0px 8px 2px rgba($s-m, 0.5);
+  box-shadow: 0px 0px 8px 2px rgba($s-m, 0.5);
+}

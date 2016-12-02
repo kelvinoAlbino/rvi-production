@@ -1,0 +1,60 @@
+/*------------------------------------------------*/
+/*--------------------[forms]--------------------*/
+/*------------------------------------------------*/
+
+.et_divi_builder #et_builder_outer_content .et_pb_module input {
+    margin: 0;
+    border: solid 1px;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 15px !important;
+    color: #aaa;
+    font-size: 12px;
+}
+
+[name="ninja_forms_field_3"] {
+  border: 1px solid !important;
+  padding: 12px 18px !important;
+  border-radius: 5px !important;
+  margin-bottom: 20px !important;
+}
+
+#et_builder_outer_content input[type="text"] {
+  height: unset !important;
+}
+
+#ninja_forms_field_5 {padding: 5px 10px;}
+
+[id="ninja_forms_field_5"] {
+  font-size: 16px !important;
+  cursor: pointer;
+}
+
+p.form-submit {
+  padding-bottom: 20px;
+}
+
+#comment-wrap {
+    padding: 0 !important;
+    float: left;
+    border-top: solid 1px #ccc !important;
+}
+
+#commentform textarea#comment {
+    width: 100% !important;
+    border: solid 1px #ccc !important;
+    padding: 20px !important;
+    border-radius: 5px !important;
+    background: #ccc !important;
+    color: #333 !important;
+}
+
+input#submit {
+    padding: 10px 12px !important;
+    border-radius: 5px !important;
+    border: medium none !important;
+    background: rgb(221, 221, 221) none repeat scroll 0% 0% !important;
+    font-size: 12px !important;
+    color: rgba(0, 0, 0, 0.6) !important;
+    cursor: pointer;
+}

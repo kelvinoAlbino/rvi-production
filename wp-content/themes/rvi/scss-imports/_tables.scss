@@ -1,0 +1,94 @@
+#products {
+  width: 95%;
+
+  tr {
+    border-bottom: solid 1px #ccc;
+    padding: 20px;
+
+    &:nth-child(even) {
+      background-color: rgba(255, 255, 255, 1);
+      transition: background-color 0.25s linear;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    &:nth-child(odd) {
+      background-color: rgba(0, 0, 0, 0.1);
+      transition: background-color 0.25s linear;
+
+      &:hover {
+        background-color: #fff;
+      }
+    }
+
+    td {
+      padding: 20px;
+
+      h2 {
+        font-size: 22px;
+        padding-top: 12px;
+      }
+
+      a {
+
+        i.fa {
+          font-size: 35px !important;
+        }
+      }
+    }
+  }
+}
+
+.products {
+  width: 95%;
+
+  tr {
+    border-bottom: solid 1px #ccc;
+    padding: 20px;
+
+    &:nth-child(even) {
+      background-color: rgba(255, 255, 255, 1);
+      transition: background-color 0.25s linear;
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    &:nth-child(odd) {
+      background-color: rgba(0, 0, 0, 0.1);
+      transition: background-color 0.25s linear;
+
+      &:hover {
+        background-color: #fff;
+      }
+    }
+
+    td {
+      padding: 20px;
+
+      h2 {
+        font-size: 22px;
+        padding-top: 12px;
+      }
+
+      a {
+
+        i.fa {
+          font-size: 35px !important;
+        }
+      }
+    }
+  }
+}
+#smoke-vent-product {
+  table{
+    tr{
+      td{
+        padding: 10px;
+      }
+    }
+  }
+}
